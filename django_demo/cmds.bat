@@ -1,0 +1,1 @@
+workon django_test && python manage.py runserver
