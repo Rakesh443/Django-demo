@@ -1,1 +1,0 @@
-workon django_test
