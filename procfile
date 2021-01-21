@@ -1,1 +1,1 @@
-web: gunicorn ismartkart.wsgi:application --log-file -
+web: gunicorn ismartkart.wsgi --log-file -
