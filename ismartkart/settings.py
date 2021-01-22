@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '$lby+q@smv$gn^x%aiyauod2o0$t^md7x#*78d@p3&kkt)4&1r'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1','ismartkart.herokuapp.com']
 
@@ -58,7 +58,7 @@ ROOT_URLCONF = 'ismartkart.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR,'templates')],
+        'DIRS': [os.path.join(BASE_DIR,'templates'),os.path.join(BASE_DIR,'iSmartWeb/build')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
